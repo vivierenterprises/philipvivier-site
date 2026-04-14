@@ -33,7 +33,7 @@ export default function About() {
           <div>
             <span className="section-label">The Story</span>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', marginTop: '1rem' }}>
-              {[['1981', 'First sale — watch straps, Cape Town'], ['1987', 'Founded first company'], ['2003', 'Sold the company'], ['2004', 'Radio sales, Dallas. 50 cold calls a day.'], ['2004', 'Two weeks that changed everything'], ['2008', 'First book published'], ['2026', 'The definitive edition']].map(([year, event]) => (
+              {[['1976', 'First sale — watch straps, Cape Town'], ['1987', 'Founded first company'], ['2003', 'Sold the company'], ['2004', 'Radio sales, Dallas. 50 cold calls a day.'], ['2004', 'Two weeks that changed everything'], ['2008', 'First book published'], ['2026', 'The definitive edition']].map(([year, event]) => (
                 <div key={year + event} style={{ display: 'flex', gap: '1.5rem', alignItems: 'baseline' }}>
                   <span className="cormorant" style={{ fontSize: '0.9rem', color: 'var(--warm)', flexShrink: 0, width: '40px' }}>{year}</span>
                   <span style={{ fontSize: '0.85rem', color: 'var(--ink-soft)' }}>{event}</span>
