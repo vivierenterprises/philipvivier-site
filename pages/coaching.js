@@ -6,7 +6,7 @@ export default function Coaching() {
   return (
     <>
       <Head>
-        <title>Sales Coaching — Philip Vivier</title>
+        <title>Sales Coaching, Philip Vivier</title>
         <meta name="description" content="Weekly sales coaching from the front lines. Real-world tactics, tools, and insights from Philip Vivier." />
       </Head>
       <Nav />
@@ -29,7 +29,7 @@ export default function Coaching() {
           <span className="section-label">What's Included</span>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '3rem', marginTop: '2rem' }}>
             {[
-              { title: 'Weekly Sales Lessons', body: 'New content every Monday. Written insights, tools, and stories from the field — rooted in experience, not theory.' },
+              { title: 'Weekly Sales Lessons', body: 'New content every Monday. Written insights, tools, and stories from the field, rooted in experience, not theory.' },
               { title: 'Personality Framework', body: 'Master the Driver, Analyst, Connector, Supporter framework. Learn to identify each type within thirty seconds and adapt your approach.' },
               { title: 'Audio Stories', body: 'Real scenarios from real sales situations. What happened, what went wrong, what worked, and why.' },
               { title: 'Downloadable Tools', body: 'Worksheets, question guides, follow-up templates, and email frameworks tailored to each personality type.' },
@@ -50,7 +50,7 @@ export default function Coaching() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '2rem', marginTop: '2rem' }}>
             {[
               { name: 'Monthly', price: '$12', period: 'per month', desc: 'Weekly sales lessons, audio stories, and downloadable tools. Cancel anytime.', cta: 'Start Monthly', highlight: false },
-              { name: 'Annual', price: '$99', period: 'per year', desc: 'Everything in Monthly plus bonus modules and priority access to new content. Best value — save 30%.', cta: 'Start Annual', highlight: true },
+              { name: 'Annual', price: '$99', period: 'per year', desc: 'Everything in Monthly plus bonus modules and priority access to new content. Best value, save 30%.', cta: 'Start Annual', highlight: true },
             ].map(plan => (
               <div key={plan.name} style={{ padding: '2.5rem', border: plan.highlight ? '2px solid var(--ink)' : '1px solid var(--border)', borderRadius: '2px', position: 'relative' }}>
                 {plan.highlight && <div style={{ position: 'absolute', top: '-1px', right: '1.5rem', background: 'var(--ink)', color: 'var(--cream)', fontSize: '0.65rem', fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', padding: '0.3rem 0.75rem' }}>Best Value</div>}

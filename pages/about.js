@@ -6,7 +6,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About Philip Vivier — Author, Speaker, Sales Trainer</title>
+        <title>About Philip Vivier | Author, Speaker, Sales Trainer</title>
         <meta name="description" content="Philip Vivier is a three-time founder, sales trainer, and author with over forty years of experience building businesses and training sales teams." />
       </Head>
       <Nav />
@@ -38,7 +38,7 @@ export default function About() {
             <span className="section-label">The Story</span>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', marginTop: '1rem' }}>
               {[
-                ['1976', 'First sale — watchstraps, Cape Town'],
+                ['1976', 'First sale, watchstraps, Cape Town'],
                 ['1987', 'Founded first company'],
                 ['2003', 'Sold the company'],
                 ['2004', 'Radio sales, Dallas. 50 cold calls a day.'],
@@ -56,7 +56,7 @@ export default function About() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
             {[
               'Philip Vivier is a seasoned executive, three-time founder, and sales trainer with over forty years of experience driving operational turnarounds, commercial growth, and exit readiness.',
-              'Blending expertise in sales psychology with disciplined operational leadership, Philip has built and led organizations from the ground up — guiding multiple companies to national scale and multimillion-dollar revenues.',
+              'Blending expertise in sales psychology with disciplined operational leadership, Philip has built and led organizations from the ground up, guiding multiple companies to national scale and multimillion-dollar revenues.',
               'As COO of a B2B fulfillment and distribution startup, he transformed a zero-revenue operation into a nationwide business serving more than 1,400 clients. Under his leadership, the company implemented lean processes, strengthened client retention, improved margins, and positioned itself for acquisition.',
               'Philip has also served as CEO and interim commercial leader for companies preparing for M&A, where he brought rigor to forecasting, pricing, and team design. He\'s led businesses through turnarounds, exits, and hyper growth by aligning departments under shared KPIs and building systems that scale.',
               'Alongside his operational career, Philip is the author of two new books on modern sales and buyer psychology. His people-first framework helps businesses drive revenue by building trust, aligning to buyer types, and eliminating outdated high-pressure tactics.',

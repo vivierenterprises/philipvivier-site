@@ -32,7 +32,7 @@ export default function TranslationProblem() {
   return (
     <>
       <Head>
-        <title>The Translation Problem — Pre-Order | Philip Vivier</title>
+        <title>The Translation Problem, Pre-Order | Philip Vivier</title>
         <meta name="description" content="Every conflict is just two people protecting something they have not named yet. Pre-order The Translation Problem by Philip Vivier." />
         <script src="https://cdn.paddle.com/paddle/v2/paddle.js" />
       </Head>
@@ -53,7 +53,7 @@ export default function TranslationProblem() {
               Not a book about difficult people. A book about what happens when two people are both right, both reasonable, and still can't seem to work together.
             </p>
             <p style={{ fontSize: '0.95rem', lineHeight: 1.8, color: 'var(--ink-soft)' }}>
-              Philip Vivier spent twenty years watching good teams break down — not because of bad intentions, but because of unspoken ones. This book shows you how to name what's really in the room.
+              Philip Vivier spent twenty years watching good teams break down, not because of bad intentions, but because of unspoken ones. This book shows you how to name what's really in the room.
             </p>
           </div>
 
@@ -65,7 +65,7 @@ export default function TranslationProblem() {
               {[
                 { key: 'digital', label: 'Digital Edition', desc: 'PDF + ePub. Delivered on launch day.', price: '$9.99' },
                 { key: 'paperback', label: 'Paperback', desc: 'Ships on launch day via IngramSpark.', price: '$19.99' },
-                { key: 'bundle', label: 'Bundle — Best Value', desc: 'Digital + Paperback. Save $5.', price: '$24.99', highlight: true },
+                { key: 'bundle', label: 'Bundle, Best Value', desc: 'Digital + Paperback. Save $5.', price: '$24.99', highlight: true },
               ].map(opt => (
                 <div
                   key={opt.key}
@@ -114,7 +114,7 @@ export default function TranslationProblem() {
           <span className="section-label">Who This Book Is For</span>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '3rem', marginTop: '2rem' }}>
             {[
-              { title: 'Leaders', body: 'Who have good people who don\'t seem to understand each other — and can\'t figure out why.' },
+              { title: 'Leaders', body: 'Who have good people who don\'t seem to understand each other, and can\'t figure out why.' },
               { title: 'Managers', body: 'Who are caught between departments that are both doing their jobs and somehow still creating friction.' },
               { title: 'Anyone', body: 'Who has ever sat in a meeting and thought: there has to be a better way for people to work together.' },
             ].map(item => (
@@ -130,7 +130,7 @@ export default function TranslationProblem() {
         <div style={{ padding: '5rem 3rem', background: 'white', borderBottom: '1px solid var(--border)' }}>
           <span className="section-label">From the Book</span>
           <blockquote className="cormorant" style={{ fontSize: 'clamp(1.4rem,2.5vw,2rem)', lineHeight: 1.5, color: 'var(--ink)', maxWidth: '720px', borderLeft: '3px solid var(--warm)', paddingLeft: '2rem', marginTop: '1rem' }}>
-            "The issue was not that Marketing moved too fast or that Operations moved too slow. The issue was that they had different definitions of what 'ready' meant — and neither team had ever said that out loud."
+            "The issue was not that Marketing moved too fast or that Operations moved too slow. The issue was that they had different definitions of what 'ready' meant, and neither team had ever said that out loud."
           </blockquote>
           <p style={{ fontSize: '0.8rem', color: 'var(--ink-muted)', marginTop: '1.5rem', paddingLeft: '2rem' }}>— Chapter 1, The Translation Problem</p>
         </div>

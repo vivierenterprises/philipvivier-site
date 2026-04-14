@@ -16,7 +16,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact — Philip Vivier</title>
+        <title>Contact | Philip Vivier</title>
         <meta name="description" content="Get in touch with Philip Vivier. No pressure." />
       </Head>
       <Nav />
@@ -31,7 +31,7 @@ export default function Contact() {
               Let's have a<br /><em style={{ color: 'var(--warm)' }}>real conversation.</em>
             </h1>
             <p style={{ fontSize: '1rem', lineHeight: 1.8, color: 'var(--ink-soft)', marginBottom: '3rem' }}>
-              Whether you're preparing for a key meeting, planning a sales workshop, curious about the books, or just want to explore whether any of this applies to your team — reach out. No pressure.
+              Whether you're preparing for a key meeting, planning a sales workshop, curious about the books, or just want to explore whether any of this applies to your team. Reach out. No pressure.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               {[
@@ -48,7 +48,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* RIGHT — FORM */}
+          {/* RIGHT, FORM */}
           <div style={{ padding: '5rem 3rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             {sent ? (
               <div style={{ textAlign: 'center' }}>

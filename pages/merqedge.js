@@ -6,7 +6,7 @@ export default function MerqEdge() {
   return (
     <>
       <Head>
-        <title>MerqEdge — Sales Intelligence App</title>
+        <title>MerqEdge: Sales Intelligence App</title>
         <meta name="description" content="MerqEdge puts the Let Them Buy philosophy into a tool your team uses every day. From $29/month." />
       </Head>
       <Nav />
@@ -19,18 +19,18 @@ export default function MerqEdge() {
             The philosophy, built into a tool your team uses every day.
           </h1>
           <p style={{ fontSize: '1rem', lineHeight: 1.8, color: 'rgba(247,244,239,0.65)', maxWidth: '560px', marginBottom: '3rem' }}>
-            Personality-based email rewriting, promise tracking, meeting intelligence, and pipeline management — all in one mobile-first app. Built for salespeople who want to sell the way the book teaches.
+            Personality-based email rewriting, promise tracking, meeting intelligence, and pipeline management, all in one mobile-first app. Built for salespeople who want to sell the way the book teaches.
           </p>
           <div style={{ display: 'flex', gap: '1rem' }}>
-            <a href="https://merqedge.com" className="btn-warm" target="_blank" rel="noopener">Try Free</a>
-            <a href="https://merqedge.com" className="btn-secondary" style={{ color: 'var(--cream)', borderColor: 'rgba(247,244,239,0.2)' }} target="_blank" rel="noopener">See Pricing</a>
+            <a href="https://merq-edge.vercel.app" className="btn-warm" target="_blank" rel="noopener">Try Free</a>
+            <a href="https://merq-edge.vercel.app" className="btn-secondary" style={{ color: 'var(--cream)', borderColor: 'rgba(247,244,239,0.2)' }} target="_blank" rel="noopener">See Pricing</a>
           </div>
         </div>
 
         {/* FEATURES */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', borderBottom: '1px solid var(--border)' }}>
           {[
-            { icon: '✦', title: 'Email Rewriter', body: 'Paste your draft. Select the buyer\'s personality type. Get a rewrite that speaks their language — concise for Drivers, data-forward for Analysts, warm for Connectors, reassuring for Supporters.' },
+            { icon: '✦', title: 'Email Rewriter', body: 'Paste your draft. Select the buyer\'s personality type. Get a rewrite that speaks their language, concise for Drivers, data-forward for Analysts, warm for Connectors, reassuring for Supporters.' },
             { icon: '◎', title: 'Pre-Call Briefing', body: 'One tap before every call. Personalized coaching based on who you\'re calling, what they care about, and how to open the conversation.' },
             { icon: '◈', title: 'Promise Tracker', body: 'Log what you committed to. Assign promises to team members. Get notified when something\'s assigned to you. Never let a follow-through slip.' },
             { icon: '◇', title: 'Meeting Intelligence', body: 'Record a voice memo after a call. AI extracts promises, key points, sentiment, next steps, and concerns. Editable before saving.' },
@@ -80,7 +80,7 @@ export default function MerqEdge() {
                     </li>
                   ))}
                 </ul>
-                <a href="https://merqedge.com" className={plan.highlight ? 'btn-primary' : 'btn-secondary'} style={{ display: 'block', textAlign: 'center' }} target="_blank" rel="noopener">
+                <a href="https://merq-edge.vercel.app" className={plan.highlight ? 'btn-primary' : 'btn-secondary'} style={{ display: 'block', textAlign: 'center' }} target="_blank" rel="noopener">
                   Get Started
                 </a>
               </div>
@@ -96,7 +96,7 @@ export default function MerqEdge() {
               Read the book. Use the app.
             </h2>
             <p style={{ fontSize: '0.95rem', lineHeight: 1.8, color: 'var(--ink-soft)' }}>
-              MerqEdge was built as the practical companion to the Let Them Buy framework. Every feature — the personality-based rewriter, the pre-call briefing, the promise tracker — exists because of something in the book. The two work better together.
+              MerqEdge was built as the practical companion to the Let Them Buy framework. Every feature, the personality-based rewriter, the pre-call briefing, the promise tracker, exists because of something in the book. The two work better together.
             </p>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>

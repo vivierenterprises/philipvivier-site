@@ -6,7 +6,7 @@ export default function Books() {
   return (
     <>
       <Head>
-        <title>Books — Philip Vivier</title>
+        <title>Books, Philip Vivier</title>
         <meta name="description" content="Philip Vivier's books on sales psychology, personality, and workplace communication." />
       </Head>
       <Nav />
@@ -17,18 +17,18 @@ export default function Books() {
           <span className="section-label">Philip Vivier</span>
           <h1 className="cormorant" style={{ fontSize: 'clamp(2.5rem,4vw,4.5rem)', lineHeight: 1.1 }}>The Books</h1>
           <p style={{ fontSize: '1rem', lineHeight: 1.75, color: 'var(--ink-soft)', maxWidth: '560px', marginTop: '1.5rem' }}>
-            Four books. One idea. People don't resist buying — they resist being sold. These books show you what to do instead.
+            Two books. One idea. People don't resist buying, they resist being sold. These books show you what to do instead.
           </p>
         </div>
 
         {/* BOOK 1 */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', borderBottom: '1px solid var(--border)' }}>
           <div style={{ padding: '5rem 3rem', borderRight: '1px solid var(--border)', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-            <span className="badge">Pre-Sale — Ships on Launch Day</span>
+            <span className="badge">Pre-Sale, Ships on Launch Day</span>
             <h2 className="cormorant" style={{ fontSize: 'clamp(2rem,3vw,3.5rem)', lineHeight: 1.1, marginBottom: '1rem' }}>Stop Selling.<br />Let Them Buy.</h2>
             <p className="cormorant" style={{ fontSize: '1.1rem', color: 'var(--ink-muted)', marginBottom: '2rem', fontStyle: 'italic' }}>The Definitive Edition</p>
             <p style={{ fontSize: '0.95rem', lineHeight: 1.8, color: 'var(--ink-soft)', marginBottom: '1.5rem' }}>
-              This is the complete version — drawing on four decades of selling, building companies, and training sales teams across every industry. It starts with watch straps on a construction site in Cape Town and ends with a framework any salesperson can use within thirty seconds of starting a conversation.
+              This is the complete version, drawing on four decades of selling, building companies, and training sales teams across every industry. It starts with watchstraps on a construction site in Cape Town and ends with a framework any salesperson can use within thirty seconds of starting a conversation.
             </p>
             <p style={{ fontSize: '0.95rem', lineHeight: 1.8, color: 'var(--ink-soft)', marginBottom: '2.5rem' }}>
               Driver. Analyst. Connector. Supporter. Once you can identify how someone thinks, you stop trying to convince them. You start helping them see clearly enough to decide.
@@ -59,13 +59,13 @@ export default function Books() {
             </div>
           </div>
           <div style={{ padding: '5rem 3rem', borderLeft: '1px solid var(--border)', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-            <span className="badge">Pre-Sale — Ships on Launch Day</span>
+            <span className="badge">Pre-Sale, Ships on Launch Day</span>
             <h2 className="cormorant" style={{ fontSize: 'clamp(2rem,3vw,3.5rem)', lineHeight: 1.1, marginBottom: '1.5rem' }}>The Translation<br />Problem</h2>
             <p className="cormorant" style={{ fontSize: '1.2rem', fontStyle: 'italic', color: 'var(--warm)', marginBottom: '1.5rem', lineHeight: 1.5 }}>
               "Every conflict is just two people protecting something they have not named yet."
             </p>
             <p style={{ fontSize: '0.95rem', lineHeight: 1.8, color: 'var(--ink-soft)', marginBottom: '1.5rem' }}>
-              Not a book about difficult people. A book about what happens when two people are both right, both reasonable, and still can't seem to work together. Philip Vivier spent twenty years watching good teams break down — not because of bad intentions, but because of unspoken ones.
+              Not a book about difficult people. A book about what happens when two people are both right, both reasonable, and still can't seem to work together. Philip Vivier spent twenty years watching good teams break down, not because of bad intentions, but because of unspoken ones.
             </p>
             <p style={{ fontSize: '0.95rem', lineHeight: 1.8, color: 'var(--ink-soft)', marginBottom: '2.5rem' }}>
               This book shows you how to name what's really in the room.

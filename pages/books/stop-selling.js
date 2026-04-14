@@ -33,7 +33,7 @@ export default function StopSelling() {
   return (
     <>
       <Head>
-        <title>Stop Selling. Let Them Buy. — Pre-Order | Philip Vivier</title>
+        <title>Stop Selling. Let Them Buy., Pre-Order | Philip Vivier</title>
         <meta name="description" content="Pre-order the definitive edition of Stop Selling, Let Them Buy by Philip Vivier. Digital, paperback, or bundle." />
         <script src="https://cdn.paddle.com/paddle/v2/paddle.js" />
       </Head>
@@ -47,7 +47,7 @@ export default function StopSelling() {
             <h1 className="cormorant" style={{ fontSize: 'clamp(2.5rem,4vw,4.5rem)', lineHeight: 1.05, marginBottom: '1rem' }}>
               Stop Selling.<br />Let Them Buy.
             </h1>
-            <p className="cormorant" style={{ fontSize: '1.2rem', color: 'var(--ink-muted)', fontStyle: 'italic', marginBottom: '2rem' }}>The Definitive Edition — Philip Vivier</p>
+            <p className="cormorant" style={{ fontSize: '1.2rem', color: 'var(--ink-muted)', fontStyle: 'italic', marginBottom: '2rem' }}>The Definitive Edition, Philip Vivier</p>
             <p style={{ fontSize: '0.95rem', lineHeight: 1.8, color: 'var(--ink-soft)', marginBottom: '1.5rem' }}>
               This is the complete version of the framework that began in 2004 with fifty cold calls a day in Dallas, Texas, and ended with a realization that changed everything: the issue was never the message. It was the person hearing it.
             </p>
@@ -64,7 +64,7 @@ export default function StopSelling() {
               {[
                 { key: 'digital', label: 'Digital Edition', desc: 'PDF + ePub. Delivered on launch day.', price: '$9.99' },
                 { key: 'paperback', label: 'Paperback', desc: 'Ships on launch day via IngramSpark.', price: '$19.99' },
-                { key: 'bundle', label: 'Bundle — Best Value', desc: 'Digital + Paperback. Save $5.', price: '$24.99', highlight: true },
+                { key: 'bundle', label: 'Bundle, Best Value', desc: 'Digital + Paperback. Save $5.', price: '$24.99', highlight: true },
               ].map(opt => (
                 <div
                   key={opt.key}
@@ -114,7 +114,7 @@ export default function StopSelling() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '3rem', marginTop: '2rem' }}>
             {[
               { title: 'The Origin Story', body: 'From a Cape Town orphanage to radio sales in Dallas. The forty-year journey that produced the framework.' },
-              { title: 'The Four Personalities', body: 'Driver, Analyst, Connector, Supporter — how to identify each one within thirty seconds and adapt your conversation.' },
+              { title: 'The Four Personalities', body: 'Driver, Analyst, Connector, Supporter, how to identify each one within thirty seconds and adapt your conversation.' },
               { title: 'The Three Tools', body: 'Identify the personality. Own the idea. Get them in the moment. The complete practical system.' },
             ].map(item => (
               <div key={item.title}>
@@ -130,7 +130,7 @@ export default function StopSelling() {
           <span className="section-label">What Readers Say</span>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '2rem', marginTop: '2rem' }}>
             {[
-              { quote: 'Our capture rate climbed 13% over the last two months — a direct result of your training on objections and personality types.', author: 'Douglas P.' },
+              { quote: 'Our capture rate climbed 13% over the last two months, a direct result of your training on objections and personality types.', author: 'Douglas P.' },
               { quote: 'Philip\'s training drove a complete turnaround in our company. Within 60 days, we broke performance records across multiple departments.', author: 'John Y.' },
             ].map(t => (
               <div key={t.author} style={{ padding: '2rem', border: '1px solid var(--border)', borderRadius: '2px' }}>
